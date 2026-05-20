@@ -4,6 +4,7 @@ module.exports = defineConfig({
   timeout: 125000,
   testDir: '.',
   testMatch: '**/*.js',
+  testIgnore: ['**/healed/**'],
   expect: {
     timeout: 125000,
   },
